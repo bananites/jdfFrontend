@@ -1,0 +1,16 @@
+<cdk-virtual-scroll-viewport appendOnly itemSize="50" class="example-viewport">
+    <div *cdkVirtualFor="let job of items" class="example-item">
+        {{job}}
+    </div>
+</cdk-virtual-scroll-viewport>
+
+<!-- @for(job of jobList; track job){
+<mat-card appearance="outlined">
+    <mat-card-content>
+        <p>{{job.user}}</p>
+        <p>{{job.name}}</p>
+        <p>{{job.machine}}</p>
+    </mat-card-content>
+</mat-card>
+<br>
+} -->

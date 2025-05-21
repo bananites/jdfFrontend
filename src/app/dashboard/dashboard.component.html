@@ -1,0 +1,20 @@
+<mat-grid-list cols="5" rowHeight="100px">
+    <mat-grid-tile [style.background]="'lightgreen'" [colspan]="3" [rowspan]="1">
+        <!-- TODO User -->
+        hello User
+    </mat-grid-tile>
+
+    <mat-grid-tile [style.background]="'red'" [colspan]="2" [rowspan]="6">
+        <!-- TODO Machines -->
+        Working Machines
+    </mat-grid-tile>
+
+    <mat-grid-tile [style.background]="'lightblue'" [colspan]="1" [rowspan]="5">
+        <app-user-jobs></app-user-jobs>
+    </mat-grid-tile>
+
+    <mat-grid-tile [style.background]="'yellow'" [colspan]="2" [rowspan]="5">
+        <!-- TODO Completed Jobs -->
+         Completed Jobs
+    </mat-grid-tile>
+</mat-grid-list>
